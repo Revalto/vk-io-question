@@ -2,6 +2,7 @@
 ### Описание
 Небольшой модуль для системы "Вопрос-Ответ".
 Интегрируется в цепь *middleware*  vk-io
+FIX получение ответа только с того диалога, в котором вопрос был задан
 
 [![npm package](https://nodei.co/npm/vk-io-question.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vk-io-question/)
 <p>
