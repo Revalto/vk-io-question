@@ -25,7 +25,7 @@ class QuestionManager {
 
             const currentQuestion = this.questions.get(context.senderId);
 
-            if (currentQuestion) {
+            if (currentQuestion && currentQuestion.peerId == context.peerId) {
                 currentQuestion.resolve(
                     new Answer({
                         text: context.text,
@@ -59,6 +59,7 @@ class QuestionManager {
 
                     this.questions.set(userId, {
                         resolve,
+                        peerId: context.peerId,
                         startTime: Date.now()
                     });
                 });
