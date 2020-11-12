@@ -1,14 +1,14 @@
 {
-  "name": "vk-io-question",
+  "name": "vk-io-question-fix",
   "version": "2.0.1",
   "description": "Система \"Вопрос-Ответ\" для библиотеки VK-IO",
   "main": "lib/index",
   "module": "lib/index.mjs",
   "typings": "lib/index.d.ts",
   "types": "lib/index.d.ts",
-  "author": "Fakeman Cat",
+  "author": "Fakeman Cat & Revalto",
   "license": "MIT",
-  "repository": "https://github.com/fakemancat/vk-io-question",
+  "repository": "https://github.com/Revalto/vk-io-question-fix",
   "scripts": {
     "build": "rollup -c"
   },
