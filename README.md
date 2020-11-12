@@ -1,24 +1,24 @@
-# VK-IO-QUESTION
+# vk-io-question-fix
 ### Описание
 Небольшой модуль для системы "Вопрос-Ответ".
 Интегрируется в цепь *middleware*  vk-io.
 FIX получение ответа только с того диалога, в котором вопрос был задан
 
-[![npm package](https://nodei.co/npm/vk-io-question.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vk-io-question/)
+[![npm package](https://nodei.co/npm/vk-io-question-fix.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vk-io-question-fix/)
 <p>
-<a href="https://www.npmjs.com/package/vk-io-question"><img src="https://img.shields.io/npm/v/vk-io-question.svg" alt="Version"></a>
-<a href="https://www.npmjs.com/package/vk-io-question"><img src="https://img.shields.io/npm/dt/vk-io-question.svg" alt="Downloads"></a>
+<a href="https://www.npmjs.com/package/vk-io-question-fix"><img src="https://img.shields.io/npm/v/vk-io-question-fix.svg" alt="Version"></a>
+<a href="https://www.npmjs.com/package/vk-io-question-fix"><img src="https://img.shields.io/npm/dt/vk-io-question-fix.svg" alt="Downloads"></a>
 </p>
 
 ### Установка
 **npm**
 ```bash
-npm i -S vk-io-question
+npm i -S vk-io-question-fix
 ```
 
 **yarn**
 ```bash
-yarn add vk-io-question
+yarn add vk-io-question-fix
 ```
 
 ### Использование
@@ -30,7 +30,7 @@ const vk = new VK({
     token: process.env.TOKEN
 });
 
-const { QuestionManager } = require('vk-io-question');
+const { QuestionManager } = require('vk-io-question-fix');
 const questionManager = new QuestionManager();
 
 vk.updates.use(questionManager.middleware);
@@ -70,7 +70,7 @@ const vk = new VK({
 import {
     QuestionManager,
     IQuestionMessageContext
-} from 'vk-io-question';
+} from 'vk-io-question-fix';
 
 const questionManager = new QuestionManager();
 
